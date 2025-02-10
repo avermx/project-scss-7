@@ -66,15 +66,17 @@ main {
   width: 30%;
   overflow: hidden;
   position: relative;
+  /* mask-image: linear-gradient(to right, transparent, #0e0e0e, transparent); */
 }
 .view .marque::before {
   content: "";
   height: 100%;
   width: 50%;
   position: absolute;
-  top: 0%;
-  right: 0%;
-  background: linear-gradient(to left, transparent, rgb(26, 5, 5));
+  top: 0;
+  right: 0;
+  z-index: 100;
+  background: linear-gradient(to right, transparent, rgb(14, 13, 13));
 }
 .view .marque::after {
   content: "";

@@ -78,31 +78,35 @@ main {
         display: flex;
         width: 30%;
         overflow: hidden;
+        mask-image: linear-gradient(to left ,transparent , #0e0e0e);
         position: relative;
+
         
         
-        &::before{
-            content: "";
-            height: 100%;
-            width: 50%;
-            position: absolute;
-            top: 0%;
-            right: 0%;
-            background: linear-gradient(to left,transparent ,rgb(26, 5, 5));
-        }
-        &::after{
-            content: "";
-            height: 100%;
-            width: 50%;
-            position: absolute;
-            top: 0;
-            left: 0;
-            background: linear-gradient(to right, #0e0e0e, transparent);
-        }
+
+        
+        
+        // &::after{
+        //     content: "ANiket";
+        //     height: 100%;
+        //     width: 50%;
+        //     position: absolute;
+        //     top: 0;
+        //     left: 0;
+     
+        // }
         
 
 
-
+        // &::before{      
+        //     content: "";
+        //     height: 100%;
+        //     width: 50%;
+        //     position: absolute;
+        //     top: 0%;
+        //     right: 0%;
+        //     background: linear-gradient(to right,transparent ,#0e0e0e);
+        // }
 
         .text {
 
